@@ -1,5 +1,5 @@
 body {
-  padding-top: 160px;
+  padding-top: 230px;
   font-family: "Montserrat", sans-serif;
   background-color: #f2f2f2;
 }
@@ -19,7 +19,12 @@ body {
 }
 
  #header-img {
-  width: 150px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  padding: 4px 8px;
+  background-color: #ffffff;
+  border: 3px solid #ff6600;
   max-height: 150px;
  }
 
@@ -93,6 +98,8 @@ gap: 45px;
 }
 
 .feature-icon {
+  mix-blend-mode: multiply;
+  filter: contrast(1.25);
   width: 230px;
   height: 230px;
   object-fit: contain;
@@ -198,6 +205,8 @@ border-bottom: 3px solid #ff6600;
  }
 
  footer a {
+  display: inline-block;
+  margin-bottom: 8px;
   text-decoration: none;
   margin-left: 25px;
   font-weight: 600;
@@ -223,6 +232,15 @@ border-bottom: 3px solid #ff6600;
   #formats {
     flex-direction: column;
     align-items: center;
+    padding: 15px 10px;
+    gap: 10px;
+  }
+  #editions > div {
+    flex-direction: column;
+    text-align: center;
+  }
+  .feature-text {
+    text-align: center;
   }
  }
 
